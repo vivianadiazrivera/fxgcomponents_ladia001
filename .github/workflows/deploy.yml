@@ -16,6 +16,8 @@ jobs:
           node-version: 12.x
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
+      - run: npm ci
+      - run: npm run build-lib
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
