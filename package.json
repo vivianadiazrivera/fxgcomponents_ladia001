@@ -1,0 +1,19 @@
+{
+  "name": "fxgcomponents_ladia001",
+  "version": "1.0.0",
+  "description": "React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivianadiazrivera/fxgcomponents_ladia001.git"
+  },
+  "author": "Viviana Diaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivianadiazrivera/fxgcomponents_ladia001/issues"
+  },
+  "homepage": "https://github.com/vivianadiazrivera/fxgcomponents_ladia001#readme"
+}
