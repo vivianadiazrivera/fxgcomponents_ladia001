@@ -1,13 +1,12 @@
 {
   "name": "fxgcomponents_ladia001",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Components",
   "main": "./lib/index.js",
   "files": [
     "/lib"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vivianadiazrivera/fxgcomponents_ladia001.git"
