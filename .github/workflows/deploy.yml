@@ -24,10 +24,17 @@ jobs:
   web-deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    if: "startsWith(github.event.head_commit.message, '[RELEASE]')"
     steps:
     - name: Get latest code
       uses: actions/checkout@v3
-    
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 12.x
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm install
+    - run: npm ci
+    - run: npm run build-storybook
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
