@@ -44,6 +44,7 @@
     "bootstrap": "^5.2.2",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-storybook": "^1.5.1",
+    "snapdragon-node": "^3.0.0",
     "yarn": "^1.22.19"
   },
   "repository": {
