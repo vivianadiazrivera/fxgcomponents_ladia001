@@ -2,7 +2,7 @@
   "name": "fxgcomponents_ladia001",
   "version": "1.0.16",
   "description": "React Components",
-  "main": "./lib/src/index.js",
+  "main": "./lib/index.js",
   "files": [
     "/lib"
   ],
