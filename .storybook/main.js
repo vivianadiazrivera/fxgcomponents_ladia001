@@ -1,7 +1,7 @@
 module.exports = {
   stories: [
-    "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+    "../lib/src/**/*.stories.mdx",
+    "../lib/src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   addons: [
     "@storybook/addon-links",
@@ -9,5 +9,5 @@ module.exports = {
     "@storybook/preset-create-react-app"
   ],
   framework: "@storybook/react",
-  staticDirs: [{ from: '../src/assets', to: '/assets' }]
+  staticDirs: [{ from: '../lib/src/assets', to: '/assets' }]
 };
