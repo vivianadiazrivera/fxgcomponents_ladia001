@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import Spin  from '../components/Spinner/Spinner';
+import Spin  from '../lib/components/Spinner/Spinner';
 
 export default {
   title: 'Components-TP1/Spinner',
@@ -26,4 +26,3 @@ Success.args = {
   size: "small",
   background: "#5cb85c"
 }; 
-

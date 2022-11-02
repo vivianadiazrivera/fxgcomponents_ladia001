@@ -1,12 +1,11 @@
 import React from 'react';
 import './style.css'
-import {Badge}  from '../components/Badge/Badge';
+import {Badge}  from '../lib/components/Badge/Badge';
 
 export default {
   title: 'Components-TP1/Badge',
   component: Badge
 };
-
 
 const Template = (args) => <Badge {...args} />;
 export const Default = Template.bind({});
@@ -26,5 +25,3 @@ Large.args = {
     size: 'large'
   
 };
-
-

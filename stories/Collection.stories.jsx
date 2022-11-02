@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Collection } from '../components/Collection/Collection';
+import { Collection } from '../lib/components/Collection/Collection';
 
 export default {
   title: 'Components-TP1/Collection',
@@ -15,7 +15,6 @@ var img = [];
 img.push('assets/img/macareux.jpg');
 img.push('assets/img/sterne_artique1.jpg');
 img.push('assets/img/sterne_artique2.jpg');
-
 
 export const Small = Template.bind({});
 Small.args = {

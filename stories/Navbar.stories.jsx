@@ -1,8 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import  Navbar  from '../components/Navbar/Navbar';
-
+import  Navbar  from '../lib/components/Navbar/Navbar';
 
 export default {
   title: 'Components-TP1/Navbar',

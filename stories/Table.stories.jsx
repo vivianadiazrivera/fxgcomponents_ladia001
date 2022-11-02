@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-import Table from '../components/Table/Table';
+import Table from '../lib/components/Table/Table';
 
 export default {
   title: 'Components-TP1/Table',

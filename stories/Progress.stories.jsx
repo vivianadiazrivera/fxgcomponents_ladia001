@@ -2,7 +2,7 @@
 import React from 'react';
 import './style.css'
 
-import { Progress } from '../components/Progress/Progress';
+import { Progress } from '../lib/components/Progress/Progress';
 
 export default {
   title: 'Components-TP1/Progress',
@@ -28,6 +28,3 @@ VariantPrimary.args = {
   background:'#0275d8',
   width:'200px'
 };
-
-
-

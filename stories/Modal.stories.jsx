@@ -1,8 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import  Modal from '../components/Modal/Modal';
-
+import  Modal from '../lib/components/Modal/Modal';
 
 export default {
   title: 'Components-TP1/Modal',
@@ -10,7 +9,6 @@ export default {
 };
 
 const Template = (args) => <Modal {...args} />;
-
 
 export const Blue = Template.bind({});
 Blue.args = {
