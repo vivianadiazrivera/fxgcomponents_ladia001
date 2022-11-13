@@ -28,3 +28,10 @@ Large.args = {
   backgroundColor:'#c9082a',
   color: '#fff'
 };
+
+export const Patate = Template.bind({});
+Patate.args = {
+  width: '300px',
+  backgroundColor:'#c9082a',
+  color: '#fff'
+};
